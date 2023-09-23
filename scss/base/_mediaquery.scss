@@ -1,0 +1,249 @@
+/* OFFCANVAS NAVBAR */
+
+@media (min-width: 1021px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media (max-width: 1021px) {
+    header {
+        display: none;
+    }
+}
+
+/* LOGO */
+
+@media (max-width: 550px) {
+    main {
+        section { 
+            .logo { 
+                img {
+                    width: 275px!important;
+                    height: auto!important;
+                }
+            }
+        }   
+    }
+}
+
+@media (max-width: 420px) {
+    main {
+        section { 
+            .logo { 
+                img {
+                    width: 200px!important;
+                    height: auto!important;
+                }
+            }
+        }   
+    }
+}
+
+/* MAIN TITLE */
+
+@media (max-width: 900px) {
+    main {
+        .main-title {
+            h1 {
+            font-size: xx-large!important;
+            }
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    main {
+        .main-title {
+            h1 {
+                font-size: x-large!important;
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    main {
+        .main-title {
+            h1 {
+                font-size: 20px!important;
+            }
+        }
+    }
+}
+
+/* CAROUSEL */
+
+@media (max-width: 900px) {
+    .custom-carousel {
+        width: 100%!important;
+    }
+}
+
+/* CATEGORIES IMAGES */
+
+@media (max-width: 700px) {
+    .menwomen, .kidsaccs {
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center!important;
+    }
+}
+
+/* VIDEO */
+
+@media (max-width: 600px) {
+    .video { 
+        .videoitself { 
+            width: 75vw!important;
+            display: flex!important;
+            flex-direction: row!important;
+            justify-content: center!important;
+        }
+    }
+}
+
+
+@media (max-width: 350px) {
+    .video {
+        .videotitle {
+            h2 {
+                font-size: x-large!important;
+            }
+        }
+    }
+}
+
+/* PRODUCTS IMAGES */
+
+@media (max-width: 700px) {
+    main {
+        .hoodiesshirts, .shoesaccs {
+            display: flex!important;
+            flex-direction: column!important;
+            align-items: center!important;
+        }
+    }
+}
+
+/* BRANDS IMAGES */
+
+@media (max-width: 700px) {
+    main {
+        .nikeadidas, .nfacechampion {
+            display: flex!important;
+            flex-direction: column!important;
+            align-items: center!important;
+        }
+    }
+}
+
+/* NEWS */
+
+@media (max-width: 700px) {
+    .newsec {
+        .newsdiv {
+            .news {
+                display: grid!important;
+                grid-template-rows: 1fr!important;
+                justify-items: center!important;
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .newsec {
+        .newsdiv {
+            .news {
+                .newsletter {
+                font-size: large!important;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .newsec {
+        .newsdiv {
+            .news {
+                .newscontainer {
+                    .newsbutton {
+                        background-color: black!important;
+                        color: white!important;
+                        font-weight: 300!important;
+                        font-size: medium!important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 420px) {
+    .newsec { 
+        .newsdiv {
+            .news {
+                .newscontainer {
+                    label {
+                        input {
+                            width: 150px!important;
+                            height: auto!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .newsec { 
+        .newsdiv {
+            .news {
+                .newscontainer {
+                    label {
+                        input {
+                            height: 20px!important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 660px) {
+    footer {
+        .footer {
+            display: grid!important;
+            justify-content: center!important;
+        }
+    }
+}
+
+/* SALE IMAGES */
+
+@media (max-width: 700px) {
+    main {
+
+    .hoodieshoes {
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center!important;
+        }
+    }
+}
+
+@media (max-width: 700px) {
+    main {
+
+    .shirtjeans {
+        display: flex!important;
+        flex-direction: column!important;
+        align-items: center!important;
+        }
+    }
+}
+

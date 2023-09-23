@@ -1,0 +1,36 @@
+
+/* VARIABLES */
+
+$revert:
+revert!important;
+
+$boxshadowpx:
+25px 25px 25px;
+
+/* LISTS */
+
+$colors:
+black,
+#990D0D,
+white,
+silver;
+
+/* MIXIN */
+
+@mixin flexdirjus ($flex, $direction, $justify) {
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+}
+
+@mixin flexdirjusal ($flex, $direction, $justify, $align) {
+    display: $flex;
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+
+
+
+
